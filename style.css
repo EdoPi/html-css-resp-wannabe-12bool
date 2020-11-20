@@ -1,0 +1,54 @@
+
+/* BLOCCO LEZIONI */
+#lezioni img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#why .container img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+  margin-top: 20px;
+}
+/* COMMON */
+.container {
+  text-align: center;
+}
+
+p{
+  padding: 0px 40px 20px;;
+}
+
+h1{
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container.grey {
+  background-color: #f9f9f9;
+}
+
+img{
+  height: 300px;
+}
+
+@media screen and (max-width: 991px){
+  img{
+    height: 200px;
+  }
+
+}
+
+@media screen and (max-width: 767px){
+  img{
+    height: 100px;
+  }
+}
